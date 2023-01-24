@@ -6,7 +6,7 @@ Usage:
 ```
 from merge_models import ratio_merge
 
-ratio_merge(
+merged_model = ratio_merge(
     model_a='G:/models/dub_modern_long_4000_44100_131072.ckpt', 
     model_b='G:/models/dub_neuro_44100_131072.ckpt', 
     out_file='G:/models/dub_modern_neuro_44100_131072.ckpt', 
