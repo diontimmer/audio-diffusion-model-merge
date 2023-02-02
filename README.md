@@ -2,7 +2,7 @@
 Simple script to merge two Sample Generator (Dance Diffusion) models by a set ratio.<br>
 Will save to file if out_file is set. Requires Torch.<br>
 Models are required to be trained with the same sample lengths, or data will be corrupted.
-This is really just a snippet to use for reference, though if youd like to import the script to your pipelines you can do so aswell.
+This is really just a snippet to use for reference, though if you'd like to import the script to your pipelines you can do so as well.
 Usage:
 ```
 from merge_models import ratio_merge
